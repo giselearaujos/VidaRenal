@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h1 align="center">ENTERPRISE CHALLENGE - HEALTH & LIFE SCIENCES</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Projeto desenvolvido para solucionar uma área da saúde utilizando o FHIR, da Microsoft.
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Novas Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img alt="Imagem do protótipo do site" src="./src/assets/vida-renal.png" width="100%">
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias
 
-### `npm test`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ReactJS
+- SASS
+- Material UI
 
-### `npm run build`
+## 💻 Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A Plataforma VidaRenal é um projeto inovador e dedicado aos pacientes renais, oferecendo uma solução abrangente para ajudar no gerenciamento de seu tratamento e no acompanhamento de sua saúde de forma eficiente e conveniente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Através da Plataforma VidaRenal, os pacientes renais têm acesso a uma variedade de recursos e funcionalidades que visam facilitar sua jornada de cuidados. Eles podem encontrar informações valiosas sobre seu tratamento renal, incluindo diretrizes dietéticas, recomendações de estilo de vida e dicas práticas para lidar com os desafios do dia a dia.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Um dos recursos principais da plataforma é a possibilidade de os pacientes registrarem suas anotações diárias. Eles podem fazer anotações sobre como se sentem, seus níveis de energia, sintomas e outros aspectos relevantes para o tratamento renal. Essas anotações ajudam os pacientes a acompanhar seu progresso ao longo do tempo e fornecem informações valiosas para eles e suas equipes médicas.
 
-### `npm run eject`
+Além disso, a Plataforma VidaRenal permite que os pacientes acessem seus registros médicos e de enfermagem de forma segura e organizada. Eles podem visualizar consultas anteriores, resultados de exames, medicações prescritas, entre outros dados importantes. Isso proporciona uma visão abrangente do histórico médico e facilita a comunicação com os profissionais de saúde envolvidos no tratamento renal.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+A segurança e privacidade dos pacientes são prioridades na Plataforma VidaRenal. Todos os dados são protegidos e armazenados de acordo com os mais altos padrões de segurança, garantindo a confidencialidade das informações pessoais e médicas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A Plataforma VidaRenal é uma ferramenta indispensável para pacientes renais que desejam ter um melhor controle sobre seu tratamento, acompanhar seu progresso e acessar informações relevantes para sua saúde. É um ambiente seguro, informativo e interativo, projetado para promover a melhoria contínua da qualidade de vida e bem-estar dos pacientes renais.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔖 Aplicação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Você pode visualizar a aplicação do projeto através [DESSE LINK](https://vaicomgulliver.netlify.app/)
 
-## Learn More
+## 📈 Novas Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] Implementado responsividade.
+- [ ] Implementar fhir-server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :memo: Licença
 
-### Code Splitting
+Esse projeto está sob a licença MIT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ♥ by [Gisele Araujo Silva](https://www.linkedin.com/in/gisele-araujo-silva/) e [Vitória Ferreira](https://www.linkedin.com/in/vic-ferreira/)
