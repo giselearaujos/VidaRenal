@@ -46,7 +46,7 @@ A Plataforma VidaRenal é uma ferramenta indispensável para pacientes renais qu
 
 ## 🔖 Aplicação
 
-Você pode visualizar a aplicação do projeto através [DESSE LINK](https://vaicomgulliver.netlify.app/)
+Você pode visualizar a aplicação do projeto através [DESSE LINK](https://vida-renal.vercel.app/)
 
 ## 📈 Novas Features
 
