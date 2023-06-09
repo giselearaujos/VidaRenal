@@ -1,0 +1,61 @@
+@import "../../styles/settings/variables";
+
+.historic-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  padding-bottom: 6rem;
+  max-height: 600px;
+  overflow-y: scroll;
+
+  .wrapper-title {
+    background-color: $gray-50;
+    display: flex;
+    align-items: baseline;
+    font-size: 1.8rem;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    margin: 1.5rem 0rem;
+
+    .diagnosis {
+      font-size: 1.4rem;
+      font-weight: $heavyFont;
+      color: $red-300;
+      background-color: $gray-100;
+      padding: 0.5rem 1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .subtitles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gray-100;
+    font-size: 1.4rem;
+    font-weight: $heavyFont;
+    padding: 0.5rem 1rem;
+
+    .historic-icon {
+      display: flex;
+      gap: 2rem;
+      cursor: pointer;
+    }
+  }
+
+  .list-container {
+    background-color: $gray-50;
+
+    .item {
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      border: 2px solid $gray-100;
+      margin: 1rem;
+      text-transform: none;
+    }
+
+    .item:last-child {
+      margin-bottom: 30px;
+    }
+  }
+}

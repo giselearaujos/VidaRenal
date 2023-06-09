@@ -1,0 +1,71 @@
+@import "../../styles/settings/variables";
+
+.day-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  text-transform: none;
+
+  .day-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $gray-100;
+    font-size: 1.4rem;
+    font-weight: $heavyFont;
+    padding: 1.5rem 1rem;
+  }
+
+  .day-icon {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+  }
+
+  .data {
+    font-size: 1.5rem;
+    font-weight: $heavyFont;
+    background-color: $green-300;
+    padding: 1rem;
+    border-radius: 10rem;
+  }
+
+  .params {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+
+    .params-container {
+      margin: 1rem 0rem;
+
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        font-size: 1.2rem;
+        font-weight: $heavyFont;
+        height: 4rem;
+      }
+
+      .pa {
+        border: 1px solid $gray-100;
+        padding: 0 1rem;
+        margin: 0.5rem 0;
+      }
+
+      .params-data {
+        font-weight: $heavyFont;
+        border-radius: 10rem;
+        padding: 1rem;
+      }
+    }
+
+    .absence {
+      font-size: 1.5rem;
+      font-weight: $heavyFont;
+      padding: 1rem;
+    }
+  }
+}
