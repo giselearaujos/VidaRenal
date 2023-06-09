@@ -1,0 +1,13 @@
+@import "./generic/reset";
+@import "./settings/variables";
+@import "./settings/base";
+
+.contentClosed {
+  margin-left: 24rem;
+  transition: 0.5s all;
+}
+
+.contentOpen {
+  margin-left: 12rem;
+  transition: 0.5s all;
+}
