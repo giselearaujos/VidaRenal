@@ -32,7 +32,7 @@ export const ItemList = ({ note, deleteNote, editNote }) => {
           <ListItemIcon>
           {new Date().toLocaleTimeString('pt-BR')}
           </ListItemIcon>
-          <ListItemText style={{ marginLeft: "1em" }} primary={note.text} onClick={() => setOpenDialog(true)}/>
+          <ListItemText style={{ marginLeft: "1em", textTransform: 'none' }} primary={note.text} onClick={() => setOpenDialog(true)}/>
         </ListItemButton>
       </ListItem>
     </Paper>
