@@ -32,7 +32,7 @@ export const Historic = () => {
         <li className='item'>Ele segue uma dieta especia, com restrição de sódio, potássio e fósforo.</li>
         <li className='item'>Realiza hemodiálise 3 vezes por semana.</li>
         <li className='item'>Está sob supervisão médica regular e faz exames de sangue e urina para monitorar a função renal e ajustar a medicação, se necessário.</li>
-        <li className='item'>Limite de ingestão de água 600ml.</li>
+        <li className='item'>Limite de ingestão de água 600ml diária.</li>
       </ul>
       <h4 className='subtitles'>
         <span>Recomendações:</span>
