@@ -18,8 +18,8 @@ export const Historic = () => {
       </h4>
       <ul className='list-container'>
         <li className='item'>O paciente foi diagnosticado com deficiência renal crônica há aproximadamente 2 anos.</li>
-        <li className='item'>Ele/ela tem histórico de hipertensão arterial, que é uma das causas comuns da doença renal.</li>
-        <li className='item'>Também foi diagnosticado com diabetes tipo 2, outro fator de risco para a deficiência renal.</li>
+        <li className='item'>Ele tem histórico de hipertensão arterial.</li>
+        <li className='item'>Também foi diagnosticado com diabetes tipo 2.</li>
       </ul>
       <h4 className='subtitles'>
         <span>Tratamento / Cuidados:</span>
@@ -29,10 +29,10 @@ export const Historic = () => {
       </h4>
       <ul className='list-container'>
         <li className='item'>O paciente recebe tratamento para controlar a pressão arterial e o diabetes, o que ajuda a retardar a progressão da doença renal.</li>
-        <li className='item'>Ele/ela segue uma dieta especial recomendada pelo nefrologista, com restrição de sódio, potássio e fósforo.</li>
-        <li className='item'>Realiza hemodiálise [número de vezes por semana] como forma de substituição renal.</li>
+        <li className='item'>Ele segue uma dieta especia, com restrição de sódio, potássio e fósforo.</li>
+        <li className='item'>Realiza hemodiálise 3 vezes por semana.</li>
         <li className='item'>Está sob supervisão médica regular e faz exames de sangue e urina para monitorar a função renal e ajustar a medicação, se necessário.</li>
-        <li className='item'>Além disso, é importante que o paciente mantenha uma hidratação adequada e evite o uso de medicamentos que possam ser prejudiciais aos rins.</li>
+        <li className='item'>Limite de ingestão de água 600ml.</li>
       </ul>
       <h4 className='subtitles'>
         <span>Recomendações:</span>
@@ -54,7 +54,7 @@ export const Historic = () => {
       <ul className='list-container'>
         <li className='item'>Cada caso de deficiência renal é único, e o tratamento pode variar de acordo com a gravidade da condição e a resposta individual do paciente.</li>
         <li className='item'>É importante que o paciente mantenha uma comunicação aberta com a equipe médica, relatando quaisquer sintomas, preocupações ou alterações na saúde.</li>
-        <li className='item'>A família e os cuidadores também desempenham um papel crucial no apoio ao paciente e garantindo que ele/ela receba os cuidados necessários.</li>
+        <li className='item'>Mora com a esposa e dois filhos. Possui um irmão com deficiência renal crônica.</li>
       </ul>
   </div>
   )
